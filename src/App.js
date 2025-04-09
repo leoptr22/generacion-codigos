@@ -9,7 +9,8 @@ function App() {
   // Función para obtener el día del año desde una fecha
   const getDiaDelAnio = (fecha) => {
     const date = new Date(fecha);
-    const start = new Date(date.getFullYear(), 0, 0);
+    // Convertimos la fecha a UTC para evitar problemas de zona horaria
+    const start = new Date(Date.UTC(date.getFullYear(), 0, 0)); // Usamos UTC para calcular el inicio del año
     const diff = date - start;
     const oneDay = 1000 * 60 * 60 * 24;
     return Math.floor(diff / oneDay);
@@ -31,7 +32,9 @@ function App() {
       nuevoCodigo = `PY5${diaDelAnio.toString().padStart(3, '0')}11`;
     } else if (producto === 'diverseyDrastik') {
       // Para Diversey Drastik, incluir "Fab: <fecha>"
-      const fechaFormateada = new Date(fecha).toLocaleDateString(); // Esto convierte la fecha a un formato legible
+      const fechaObj = new Date(fecha);
+      // Convertimos la fecha a UTC y la formateamos manualmente
+      const fechaFormateada = `${String(fechaObj.getUTCDate()).padStart(2, '0')}/${String(fechaObj.getUTCMonth() + 1).padStart(2, '0')}/${fechaObj.getUTCFullYear()}`;
       nuevoCodigo = `725${diaDelAnio.toString().padStart(3, '0')}01 - Fab: ${fechaFormateada}  `;
     }
 
