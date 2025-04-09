@@ -5,6 +5,10 @@
   background-color: #f9f9f9;
   padding: 20px;
 }
+p {
+  font-size: 35px; /* Aumentado */
+  color: #bc2525;  
+}
 
 h1 {
   color: #333;
@@ -43,9 +47,13 @@ input, select {
   .App {
     padding: 10px;
   }
+  p {
+    font-size: 35px; /* Aumentado */
+    color: #bc2525;
+  }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
   }
 
   button {
@@ -56,6 +64,12 @@ input, select {
   input, select {
     width: 100%;
   }
+  p{
+    font-size: 30px;
+
+
+
+  }
 }
 
 /* Estilos para pantallas más grandes */
@@ -65,7 +79,11 @@ input, select {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 3.8rem;
+  }
+
+  p{
+    font-size: 30px;
   }
 
   button {
