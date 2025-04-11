@@ -51,6 +51,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src="/descarga.png" alt="Logo" />
       <h1>Generador de Código</h1>
 
       {/* Input para la fecha */}
