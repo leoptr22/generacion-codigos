@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
+import LotesComponents from './Components/LotesComponent.js';
+
 
 function App() {
   const [fecha, setFecha] = useState('');
@@ -71,6 +73,7 @@ function App() {
           <p dangerouslySetInnerHTML={{ __html: codigo }}></p>
         </div>
       )}
+      <LotesComponents />
     </div>
   );
 }
