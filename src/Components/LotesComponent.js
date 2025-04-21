@@ -89,9 +89,9 @@ const LotesComponent = () => {
 
           {selectedProduct && (
             <div style={{ marginTop: '1rem' }}>
-              <h2>Último número de lote ingresado</h2>
-              <p>Producto: {selectedProduct}</p>
-              <p>N° lote {getLastLote(selectedProduct)}</p>
+              <h2>Último lote ingresado</h2>
+              <p></p>
+              <p>Producto: {selectedProduct} N° lote {getLastLote(selectedProduct)}</p>
             </div>
           )}
         </div>
