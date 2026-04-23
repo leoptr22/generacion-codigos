@@ -37,10 +37,10 @@ function App() {
       nuevoCodigo = `726${diaDelAnio.toString().padStart(3, '0')}01`;
     } else if (producto === 'unilever') {
       const fechaFormateada = formatearFecha(fecha);
-      nuevoCodigo = `${fechaFormateada}<br />PY5${diaDelAnio.toString().padStart(3, '0')}11`;
+      nuevoCodigo = `${fechaFormateada}<br />PY6${diaDelAnio.toString().padStart(3, '0')}11`;
     } else if (producto === 'diverseyDrastik') {
       const fechaFormateada = formatearFecha(fecha).replace(/ /g, '/');
-      nuevoCodigo = `725${diaDelAnio.toString().padStart(3, '0')}01 - Fab: ${fechaFormateada}`;
+      nuevoCodigo = `726${diaDelAnio.toString().padStart(3, '0')}01 - Fab: ${fechaFormateada}`;
     }
 
     setCodigo(nuevoCodigo);
