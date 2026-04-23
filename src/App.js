@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import LotesComponents from './Components/LotesComponent.js';
 
 
 function App() {
