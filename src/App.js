@@ -34,7 +34,7 @@ function App() {
     let nuevoCodigo = '';
 
     if (producto === 'diversey') {
-      nuevoCodigo = `725${diaDelAnio.toString().padStart(3, '0')}01`;
+      nuevoCodigo = `726${diaDelAnio.toString().padStart(3, '0')}01`;
     } else if (producto === 'unilever') {
       const fechaFormateada = formatearFecha(fecha);
       nuevoCodigo = `${fechaFormateada}<br />PY5${diaDelAnio.toString().padStart(3, '0')}11`;
