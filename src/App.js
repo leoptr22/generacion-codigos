@@ -73,7 +73,7 @@ function App() {
           <p dangerouslySetInnerHTML={{ __html: codigo }}></p>
         </div>
       )}
-      <LotesComponents />
+      
     </div>
   );
 }

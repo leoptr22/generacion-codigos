@@ -48,8 +48,9 @@ input, select {
     padding: 10px;
   }
   p {
-    font-size: 45px; /* Aumentado */
+    font-size: 45px; 
     color: #25bc34;
+     font-weight: bold;
   }
 
   h1 {
