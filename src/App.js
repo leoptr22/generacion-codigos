@@ -47,7 +47,7 @@ function App() {
 
     } else if (producto === 'Magistral lavavajillas') {
       const fechaFormateada = formatearFecha(fecha).replace(/ /g, '/');
-      nuevoCodigo = `PY${año}${diaDelAnio.toString().padStart(3, '0')} - Fab: ${fechaFormateada}`;
+      nuevoCodigo = `PY${año}${diaDelAnio.toString().padStart(3, '0')} `;
     }
 
     setCodigo(nuevoCodigo);
