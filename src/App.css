@@ -46,7 +46,6 @@ input, select {
 @media (max-width: 600px) {
   .App {
     padding: 10px;
-      background-color: #b0bbc3;
 
   }
   p {
