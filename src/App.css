@@ -2,11 +2,11 @@
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #b0bbc3;
   padding: 20px;
 }
 p {
-  font-size: 35px; /* Aumentado */
+  font-size: 45px; /* Aumentado */
   color: #bc2525;  
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #0f9614;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -38,7 +38,7 @@ input, select {
   width: 80%;
   max-width: 300px;
   font-size: 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #b8b482;
   border-radius: 5px;
 }
 
@@ -46,6 +46,8 @@ input, select {
 @media (max-width: 600px) {
   .App {
     padding: 10px;
+      background-color: #b0bbc3;
+
   }
   p {
     font-size: 45px; 
@@ -90,6 +92,8 @@ input, select {
   button {
     padding: 12px 24px;
     font-size: 1.1rem;
+      background-color: #0f9614;
+
   }
 
   input, select {
